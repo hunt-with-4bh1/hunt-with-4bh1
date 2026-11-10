@@ -1,19 +1,18 @@
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--                  ABHAY KUMAR — GitHub Profile README           -->
-<!--         Update links, stats username, and badges as needed     -->
+<!--              ABHAY KUMAR — GitHub Profile README                -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ── ANIMATED TYPING BANNER ── -->
+<!-- ANIMATED TYPING BANNERS — PRESERVED -->
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=FF0000&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=55&lines=Hey+%F0%9F%91%8B+I%27m+Abhay+Kumar)](https://git.io/typing-svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=45&lines=Penetration+Tester+%7C+Bug+Bounty+Hunter)](https://git.io/typing-svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=FF4444&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=40&lines=%F0%9F%94%B4+Critical+RCE+Finder+%7C+Top+6%25+TryHackMe+%7C+Security+Researcher)](https://git.io/typing-svg)
 
-<!-- ── PROFILE VIEWS & FOLLOWERS ── -->
 ![Profile Views](https://komarev.com/ghpvc/?username=hunt-with-4bh1&color=ff0000&style=flat-square&label=Profile+Views)
 [![GitHub followers](https://img.shields.io/github/followers/hunt-with-4bh1?label=Followers&style=flat-square&color=ff0000)](https://github.com/hunt-with-4bh1)
 
@@ -28,13 +27,12 @@
 └─$ whoami
 ```
 
-> 🛡️ **Cybersecurity professional** specializing in penetration testing and web application security.
-> Ranked **Top 6% globally on TryHackMe** with hands-on experience in VAPT, red team labs,
-> Python-based security automation, and vulnerability research across multiple programs — including a
-> **Critical RCE (CVSS 9.1)** and published CVEs.
+> 🛡️ **Cybersecurity researcher** specializing in web application security, penetration testing, and vulnerability research.
+>
+> Ranked **Top 6% globally on TryHackMe**, with experience in VAPT, security automation, responsible disclosure, and open-source security research — including a **Critical RCE (CVSS 9.1)** and published CVEs.
 
 ```yaml
-Name       : Abhay Kumar
+Name       : Abhay Kumar (hunt_with_4bh1)
 Role       : Penetration Tester | Bug Bounty Hunter | Security Researcher
 Education  : BCA (AI & ML) — Maharishi Markandeshwar University (2024–2027)
 Currently  : Preparing for CPENT Certification
@@ -58,10 +56,12 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 | 07 | Kontent.ai | Unauthenticated MCP access to privileged Management API operations | 🟠 High | $20 |
 | 08 | Codemod | Command injection leading to RCE (CVSS 9.1) | 🔴 Critical | $140 + $15/month recurring GitHub sponsorship |
 | 09 | Novu | SNS signature verification bypass (CVSS 6.5) | 🟡 Moderate | Hall of Fame · $50 |
-| 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe header handling | 🟡 Medium | Resolved VDP · Swag recognition |
+| 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe `X-Openai-Baseurl` header handling | 🟡 Medium | Resolved VDP · Swag recognition |
 
+> 🎁 **Weaviate:** Reported an SSRF vulnerability through unsafe header handling that could trigger arbitrary outbound requests, including potential interaction with internal network services. The report was resolved through the VDP, and swag was provided in recognition.
+>
 > 🏅 **Hall of Fame: 2 programs** (as currently confirmed).
-> 🎁 Weaviate VDP recognition included swag.
+>
 > 💡 Rewards and sponsorship details are shown as recorded; no combined earnings total is claimed.
 
 ### Published CVEs
@@ -81,13 +81,14 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 - [Capgo — GHSA-qprp-873h-mx6f](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qprp-873h-mx6f)
 - [Capgo — GHSA-qq85-vjrq-m75g](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qq85-vjrq-m75g)
 
-> One additional advisory is under triage/remediation; public disclosure is pending and it is not counted among the five public advisories.
+> One additional advisory is under triage/remediation. Public disclosure is pending and it is not counted among the five public advisories.
 
 ---
 
 ## 🛠️ Tech Stack & Tools
 
 ### 🔐 Security Skills
+
 ![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-CC0000?style=flat-square&logo=kalilinux&logoColor=white)
 ![VAPT](https://img.shields.io/badge/VAPT-8B0000?style=flat-square&logo=hackthebox&logoColor=white)
 ![Bug Bounty](https://img.shields.io/badge/Bug_Bounty-FF4500?style=flat-square&logo=bugcrowd&logoColor=white)
@@ -97,6 +98,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 ![CVSS Scoring](https://img.shields.io/badge/CVSS_Scoring-B22222?style=flat-square)
 
 ### 🧰 Security Tools
+
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-004B87?style=flat-square&logo=linux&logoColor=white)
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596BE?style=flat-square)
@@ -107,6 +109,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 ![Hashcat](https://img.shields.io/badge/Hashcat-555555?style=flat-square)
 
 ### 💻 Programming & Web
+
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -115,6 +118,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 ![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white)
 
 ### 🖥️ Platforms & OS
+
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![TryHackMe](https://img.shields.io/badge/TryHackMe-Top_6%25-212C42?style=flat-square&logo=tryhackme&logoColor=red)
@@ -133,7 +137,7 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 [![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hunt-with-4bh1)
 [![Sponsor](https://img.shields.io/badge/Support_My_Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/hunt-with-4bh1)
 
-```
+```text
 ✅ SQL Injection Detection
 ✅ XSS (Cross-Site Scripting) Detection
 ✅ Command Injection Detection
@@ -143,20 +147,21 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub Stats & Contributions
 
 <div align="center">
 
-<!-- Replace 'hunt-with-4bh1' below if your username ever changes -->
-<img src="https://github-readme-stats.vercel.app/api?username=hunt-with-4bh1&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF4444&text_color=ffffff" width="48%" />
+<!-- ALL-TIME COMMIT STATISTICS — NO STREAK CARD -->
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=hunt-with-4bh1&theme=dark&hide_border=true&background=0D1117&stroke=FF0000&ring=FF0000&fire=FF6600&currStreakLabel=FF0000" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=hunt-with-4bh1&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF4444&text_color=ffffff" width="65%" />
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hunt-with-4bh1&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=ffffff" width="40%" />
+<!-- CONTRIBUTION ACTIVITY GRAPH -->
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=hunt-with-4bh1&bg_color=0D1117&color=FF4444&line=FF0000&point=FFFFFF&area=true&hide_border=true" width="95%" />
 
 </div>
 
@@ -169,7 +174,7 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
-  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
 </div>
@@ -180,16 +185,15 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 
 | Certification | Issuer |
 |---------------|--------|
-| 🏅 Certified Social Engineering Defense Practitioner (CSEDP) | The SecOps Group |
 | 🏅 Certified Red Team Operations Management (CRTOM) | Red Team Leaders |
-| 🏅 Certified Cybersecurity Educator Professional (CCEP) | — |
-| 🏅 Certified Phishing Prevention Specialist (CPPS) | — |
+| 🏅 Certified Cybersecurity Educator Professional (CCEP) | Red Team Leaders |
+| 🏅 Certified Phishing Prevention Specialist (CPPS) | Red Team Leaders |
 | 🏅 Network Security Associate | OPSWAT Academy |
 | 🏅 Web Traffic Protection Associate | OPSWAT Academy |
 | 🏅 Cybersecurity Fundamentals Associate | OPSWAT Academy |
 | 🏅 Career Essentials in Cybersecurity | Microsoft & LinkedIn |
 | 🏅 Hands-On Penetration Testing | Infosys Springboard |
-| 🌐 Hall of Fame (x2) | OpenCage Data and Kontent.ai (as currently confirmed) |
+| 🌐 Hall of Fame (x2) | OpenCage Data and Kontent.ai |
 | 🔴 Top 6% Global Ranking | TryHackMe |
 
 ---
