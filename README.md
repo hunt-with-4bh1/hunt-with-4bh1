@@ -5,8 +5,6 @@
 
 <div align="center">
 
-<!-- ANIMATED TYPING BANNERS -->
-
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=FF0000&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=55&lines=Hey+%F0%9F%91%8B+I%27m+Abhay+Kumar)](https://git.io/typing-svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=45&lines=Penetration+Tester+%7C+Bug+Bounty+Hunter)](https://git.io/typing-svg)
@@ -56,7 +54,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 | 07 | Kontent.ai | Unauthenticated MCP access to privileged Management API operations | 🟠 High | $20 |
 | 08 | Codemod | Command injection leading to RCE (CVSS 9.1) | 🔴 Critical | $140 + $15/month recurring GitHub sponsorship |
 | 09 | Novu | SNS signature verification bypass (CVSS 6.5) | 🟡 Moderate | Hall of Fame · $50 |
-| 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe `X-Openai-Baseurl` header handling | 🟡 Medium | Resolved VDP · Swag recognition |
+| 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe `X-Openai-Baseurl` header handling | 🟡 Medium | Resolved VDP report · Swag recognition |
 
 > 🎁 **Weaviate:** Reported an SSRF issue that could trigger arbitrary outbound requests, including potential interaction with internal network services. The report was resolved through the VDP, and swag was provided in recognition.
 >
@@ -135,7 +133,6 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 Automated web vulnerability scanner with a multithreaded scanning engine that detects SQL Injection, XSS, and Command Injection — complete with a structured REST-based HTML reporting dashboard.
 
 [![View on GitHub](https://img.shields.io/badge/View_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hunt-with-4bh1)
-[![Sponsor](https://img.shields.io/badge/Support_My_Work-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/hunt-with-4bh1)
 
 ```text
 ✅ SQL Injection Detection
@@ -162,15 +159,17 @@ A privacy-focused file-sharing application designed for secure and convenient fi
 
 ---
 
-## 📊 GitHub Stats & Contributions
+## 💚 Support Independent Security Research
+
+Independent vulnerability research takes time, persistence, and resources. Your sponsorship helps support responsible disclosure, open-source security contributions, and the development of practical cybersecurity tools.
 
 <div align="center">
 
-<!-- ALL-TIME GITHUB STATISTICS — NO STREAK CARD -->
+**Currently supported by [Codemod](https://github.com/codemod-com) through GitHub Sponsors.**
 
-<img src="https://github-stats-extended.vercel.app/api?username=hunt-with-4bh1&show_icons=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF4444&text_color=ffffff" width="70%" alt="GitHub all-time statistics" />
+[![Sponsor Security Research](https://img.shields.io/badge/Sponsor_Security_Research-💚_GitHub_Sponsors-2DA44E?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/hunt-with-4bh1)
 
-<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=hunt-with-4bh1&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=ffffff" width="50%" alt="Most used programming languages" />
+*If you find my security research, vulnerability disclosures, or open-source work useful, consider supporting my work.*
 
 </div>
 
@@ -202,7 +201,7 @@ A privacy-focused file-sharing application designed for secure and convenient fi
 | 🏅 Cybersecurity Fundamentals Associate | OPSWAT Academy |
 | 🏅 Career Essentials in Cybersecurity | Microsoft & LinkedIn |
 | 🏅 Hands-On Penetration Testing | Infosys Springboard |
-| 🌐 Hall of Fame (x2) | OpenCage Data and Kontent.ai |
+| 🌐 Hall of Fame (x2) | OpenCage Data and Kontent.ai (as currently confirmed) |
 | 🔴 Top 6% Global Ranking | TryHackMe |
 
 ---
