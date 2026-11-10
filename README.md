@@ -1,3 +1,4 @@
+
 <!-- ═══════════════════════════════════════════════════════════════ -->
 <!--                  ABHAY KUMAR — GitHub Profile README           -->
 <!--         Update links, stats username, and badges as needed     -->
@@ -10,7 +11,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2500&pause=800&color=FFFFFF&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=45&lines=Penetration+Tester+%7C+Bug+Bounty+Hunter)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=FF4444&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=40&lines=%F0%9F�%B4+Critical+RCE+Finder+%7C+Top+6%25+TryHackMe+%7C+10%2B+Valid+Findings)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=16&duration=2500&pause=800&color=FF4444&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=40&lines=%F0%9F%94%B4+Critical+RCE+Finder+%7C+Top+6%25+TryHackMe+%7C+Security+Researcher)](https://git.io/typing-svg)
 
 <!-- ── PROFILE VIEWS & FOLLOWERS ── -->
 ![Profile Views](https://komarev.com/ghpvc/?username=hunt-with-4bh1&color=ff0000&style=flat-square&label=Profile+Views)
@@ -29,8 +30,8 @@
 
 > 🛡️ **Cybersecurity professional** specializing in penetration testing and web application security.
 > Ranked **Top 6% globally on TryHackMe** with hands-on experience in VAPT, red team labs,
-> Python-based security automation, and real-world bug bounty findings — including a
-> **Critical RCE (CVSS 9.1)** across multiple programs.
+> Python-based security automation, and vulnerability research across multiple programs — including a
+> **Critical RCE (CVSS 9.1)** and published CVEs.
 
 ```yaml
 Name       : Abhay Kumar
@@ -42,24 +43,45 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 
 ---
 
-## 🏆 Bug Bounty — Valid Findings (10+)
+## 🏆 Security Research & Responsible Disclosure
 
-> 🔒 *Program names are kept confidential per responsible disclosure policy.*
+> Selected vulnerability research and responsible disclosure contributions across public programs and VDPs.
 
-| # | Vulnerability Type | Severity | Impact | Reward |
-|---|-------------------|----------|--------|--------|
-| 01 | Command Injection → Remote Code Execution (CVSS 9.1) | 🔴 Critical | Arbitrary shell command execution via unsanitized CLI params | $100 |
-| 02 | Privilege Escalation via SECURITY DEFINER | 🔴 Critical | Billing manipulation, RLS bypass for arbitrary credit access | $100 |
-| 03 | SSRF + Privilege Escalation via Path Traversal | 🟠 High | Server-Side Request Forgery in builder upload proxy | $50 |
-| 04 | Path Traversal → Arbitrary File Write → Web Shell Upload | 🟠 High | RCE via unsanitized PHP API field enabling web shell | $30 |
-| 05 | API Endpoint Injection + Unauthenticated MCP Access | 🟡 Medium | Unauthorized tool execution via exposed MCP endpoint | $20 + HoF |
-| 06 | Path Traversal in SDK | 🟡 Medium | Management SDK path injection vulnerability | HoF |
-| 07 | Data Sanitization Vulnerability | 🟡 Medium | Source code review — geocoding plugin data exposure | $50 |
-| 08 | HTTP Parameter Pollution | 🟡 Medium | Geosearch service parameter manipulation | $50 |
-| 09 | SSRF via Upload Proxy | 🟠 High | Internal network access through file upload endpoint | — |
-| 10 | Privilege Escalation via Path Traversal | 🟠 High | Unauthorized access to restricted resources | — |
+| # | Program | Vulnerability | Severity | Recognition / Reward |
+|---|---------|---------------|----------|----------------------|
+| 01 | OpenCage Data | Data sanitization issue in geocoding plugin | 🟡 Medium | Hall of Fame |
+| 02 | OpenCage Data | HTTP Parameter Pollution in geosearch service | 🟡 Medium | Hall of Fame |
+| 03 | Capgo | Privilege escalation via `SECURITY DEFINER` function / RLS bypass | 🟠 High | CVE published · $100 |
+| 04 | Tilda | Path traversal leading to web-shell upload and RCE | 🟠 High | $30 |
+| 05 | Capgo | SSRF and privilege escalation via builder upload proxy | 🟠 High | CVE published · $50 |
+| 06 | Kontent.ai | Management SDK path traversal / API endpoint injection | 🟡 Moderate | Hall of Fame |
+| 07 | Kontent.ai | Unauthenticated MCP access to privileged Management API operations | 🟠 High | $20 |
+| 08 | Codemod | Command injection leading to RCE (CVSS 9.1) | 🔴 Critical | $140 + $15/month recurring GitHub sponsorship |
+| 09 | Novu | SNS signature verification bypass (CVSS 6.5) | 🟡 Moderate | Hall of Fame · $50 |
+| 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe header handling | 🟡 Medium | Resolved VDP · Swag recognition |
 
-> 💰 **Total Disclosed Earnings: $500+ | Hall of Fame: 2 Programs**
+> 🏅 **Hall of Fame: 2 programs** (as currently confirmed).
+> 🎁 Weaviate VDP recognition included swag.
+> 💡 Rewards and sponsorship details are shown as recorded; no combined earnings total is claimed.
+
+### Published CVEs
+
+| CVE | Program | Summary |
+|-----|---------|---------|
+| [CVE-2026-56233](https://www.cve.org/CVERecord?id=CVE-2026-56233) | Capgo | SSRF / privilege escalation via path traversal |
+| [CVE-2026-56239](https://www.cve.org/CVERecord?id=CVE-2026-56239) | Capgo | Privilege escalation / Row-Level Security bypass |
+| [CVE-2026-55650](https://www.cve.org/CVERecord?id=CVE-2026-55650) | Outerbase Studio | Stored Cross-Site Scripting (XSS) |
+| [CVE-2026-32641](https://www.cve.org/CVERecord?id=CVE-2026-32641) | Parseable | Unauthenticated remote denial of service |
+
+### Public GitHub Security Advisories
+
+- [Parseable — GHSA-x4q9-j9qh-3rpx](https://github.com/parseablehq/parseable/security/advisories/GHSA-x4q9-j9qh-3rpx)
+- [Outerbase Studio — GHSA-wwf9-7jrc-rv4q](https://github.com/outerbase/studio/security/advisories/GHSA-wwf9-7jrc-rv4q)
+- [Novu — GHSA-gc83-w27f-hp7m](https://github.com/novuhq/novu/security/advisories/GHSA-gc83-w27f-hp7m)
+- [Capgo — GHSA-qprp-873h-mx6f](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qprp-873h-mx6f)
+- [Capgo — GHSA-qq85-vjrq-m75g](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qq85-vjrq-m75g)
+
+> One additional advisory is under triage/remediation; public disclosure is pending and it is not counted among the five public advisories.
 
 ---
 
@@ -140,12 +162,26 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 
 ---
 
+## 🐍 GitHub Contribution Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
+  <img alt="Animated GitHub contribution snake" src="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
+</picture>
+
+</div>
+
+---
+
 ## 🎖️ Certifications & Achievements
 
 | Certification | Issuer |
 |---------------|--------|
 | 🏅 Certified Social Engineering Defense Practitioner (CSEDP) | The SecOps Group |
-| 🏅 Certified Red Team Operations Management (CRTOM) | — |
+| 🏅 Certified Red Team Operations Management (CRTOM) | Red Team Leaders |
 | 🏅 Certified Cybersecurity Educator Professional (CCEP) | — |
 | 🏅 Certified Phishing Prevention Specialist (CPPS) | — |
 | 🏅 Network Security Associate | OPSWAT Academy |
@@ -153,7 +189,7 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 | 🏅 Cybersecurity Fundamentals Associate | OPSWAT Academy |
 | 🏅 Career Essentials in Cybersecurity | Microsoft & LinkedIn |
 | 🏅 Hands-On Penetration Testing | Infosys Springboard |
-| 🌐 Hall of Fame (x2) | Multiple Bug Bounty Programs |
+| 🌐 Hall of Fame (x2) | OpenCage Data and Kontent.ai (as currently confirmed) |
 | 🔴 Top 6% Global Ranking | TryHackMe |
 
 ---
