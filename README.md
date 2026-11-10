@@ -1,11 +1,11 @@
 
 <!-- ═══════════════════════════════════════════════════════════════ -->
-<!--              ABHAY KUMAR — GitHub Profile README                -->
+<!--                  ABHAY KUMAR — GitHub Profile README           -->
 <!-- ═══════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ANIMATED TYPING BANNERS — PRESERVED -->
+<!-- ANIMATED TYPING BANNERS -->
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=FF0000&background=00000000&center=true&vCenter=true&multiline=false&width=600&height=55&lines=Hey+%F0%9F%91%8B+I%27m+Abhay+Kumar)](https://git.io/typing-svg)
 
@@ -27,9 +27,9 @@
 └─$ whoami
 ```
 
-> 🛡️ **Cybersecurity researcher** specializing in web application security, penetration testing, and vulnerability research.
+> 🛡️ **Cybersecurity professional** specializing in penetration testing and web application security.
 >
-> Ranked **Top 6% globally on TryHackMe**, with experience in VAPT, security automation, responsible disclosure, and open-source security research — including a **Critical RCE (CVSS 9.1)** and published CVEs.
+> Ranked **Top 6% globally on TryHackMe** with hands-on experience in VAPT, red team labs, Python-based security automation, and vulnerability research across multiple programs — including a **Critical RCE (CVSS 9.1)** and published CVEs.
 
 ```yaml
 Name       : Abhay Kumar (hunt_with_4bh1)
@@ -58,7 +58,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 | 09 | Novu | SNS signature verification bypass (CVSS 6.5) | 🟡 Moderate | Hall of Fame · $50 |
 | 10 | Weaviate | Server-Side Request Forgery (SSRF) through unsafe `X-Openai-Baseurl` header handling | 🟡 Medium | Resolved VDP · Swag recognition |
 
-> 🎁 **Weaviate:** Reported an SSRF vulnerability through unsafe header handling that could trigger arbitrary outbound requests, including potential interaction with internal network services. The report was resolved through the VDP, and swag was provided in recognition.
+> 🎁 **Weaviate:** Reported an SSRF issue that could trigger arbitrary outbound requests, including potential interaction with internal network services. The report was resolved through the VDP, and swag was provided in recognition.
 >
 > 🏅 **Hall of Fame: 2 programs** (as currently confirmed).
 >
@@ -81,7 +81,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 - [Capgo — GHSA-qprp-873h-mx6f](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qprp-873h-mx6f)
 - [Capgo — GHSA-qq85-vjrq-m75g](https://github.com/Cap-go/capgo.app/security/advisories/GHSA-qq85-vjrq-m75g)
 
-> One additional advisory is under triage/remediation. Public disclosure is pending and it is not counted among the five public advisories.
+> One additional advisory is under triage/remediation; public disclosure is pending and it is not counted among the five public advisories.
 
 ---
 
@@ -126,7 +126,7 @@ Open To    : Bug Bounty Collaboration | Open Source Security Projects
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Cybersecurity Projects
 
 ### 🦅 WebHawk — Web Vulnerability Scanner
 
@@ -145,23 +145,32 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 ✅ Automated HTML Reporting Dashboard
 ```
 
+### 🛡️ SHIELD — Secure File Sharing
+
+> **Privacy-First · Anonymous Sharing · Encrypted File Transfer**
+
+A privacy-focused file-sharing application designed for secure and convenient file transfers. Supports anonymous sharing through secure links and QR codes, alongside account-based file management.
+
+**Key Features**
+- 🔐 AES-256-GCM encryption
+- 🔗 Anonymous file sharing with secure links
+- 📱 QR-code sharing
+- 📂 File management for registered users
+- 🌐 Nearby sharing support
+
+[![Open SHIELD](https://img.shields.io/badge/Live_Demo-SHIELD-00A86B?style=for-the-badge&logo=vercel&logoColor=white)](https://shieldsecure-share.vercel.app/)
+
 ---
 
 ## 📊 GitHub Stats & Contributions
 
 <div align="center">
 
-<!-- ALL-TIME COMMIT STATISTICS — NO STREAK CARD -->
+<!-- ALL-TIME GITHUB STATISTICS — NO STREAK CARD -->
 
-<img src="https://github-readme-stats.vercel.app/api?username=hunt-with-4bh1&show_icons=true&include_all_commits=true&count_private=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF4444&text_color=ffffff" width="65%" />
+<img src="https://github-stats-extended.vercel.app/api?username=hunt-with-4bh1&show_icons=true&include_all_commits=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&icon_color=FF4444&text_color=ffffff" width="70%" alt="GitHub all-time statistics" />
 
-</div>
-
-<div align="center">
-
-<!-- CONTRIBUTION ACTIVITY GRAPH -->
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=hunt-with-4bh1&bg_color=0D1117&color=FF4444&line=FF0000&point=FFFFFF&area=true&hide_border=true" width="95%" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=hunt-with-4bh1&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=FF0000&text_color=ffffff" width="50%" alt="Most used programming languages" />
 
 </div>
 
@@ -174,7 +183,7 @@ Automated web vulnerability scanner with a multithreaded scanning engine that de
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
-  <img alt="GitHub contribution snake animation" src="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg" width="100%">
+  <img alt="Animated snake eating GitHub contribution squares" src="https://raw.githubusercontent.com/hunt-with-4bh1/hunt-with-4bh1/output/github-contribution-grid-snake.svg">
 </picture>
 
 </div>
